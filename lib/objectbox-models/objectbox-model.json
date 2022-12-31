@@ -1,0 +1,115 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:7556023722811114196",
+      "lastPropertyId": "10:5295285214334090711",
+      "name": "Subscription",
+      "properties": [
+        {
+          "id": "1:855636020998952695",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6322804560156765019",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:7414185269425451308",
+          "name": "type",
+          "type": 6
+        },
+        {
+          "id": "4:1250600073139365883",
+          "name": "price",
+          "type": 8
+        },
+        {
+          "id": "5:2666782370693456411",
+          "name": "color",
+          "type": 6
+        },
+        {
+          "id": "6:8014419391841208591",
+          "name": "currency",
+          "type": 9
+        },
+        {
+          "id": "7:64317913661464896",
+          "name": "isTaxFixed",
+          "type": 1
+        },
+        {
+          "id": "8:3021903025124407922",
+          "name": "tax",
+          "type": 8
+        },
+        {
+          "id": "9:518126410087830967",
+          "name": "date",
+          "type": 9
+        },
+        {
+          "id": "10:5295285214334090711",
+          "name": "month",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:7300612694639468787",
+      "lastPropertyId": "2:2097682989487805450",
+      "name": "PouchSettings",
+      "properties": [
+        {
+          "id": "1:9204892922263164436",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2097682989487805450",
+          "name": "currency",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:4406033360423146065",
+      "lastPropertyId": "2:3655446572548557335",
+      "name": "OfflineExchangeRates",
+      "properties": [
+        {
+          "id": "1:9083052610243439321",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:3655446572548557335",
+          "name": "serializedRates",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:4406033360423146065",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

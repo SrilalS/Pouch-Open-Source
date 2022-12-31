@@ -1,0 +1,6 @@
+package com.srilals.pouch.pouch
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}

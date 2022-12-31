@@ -1,0 +1,51 @@
+name: pouch
+description: A Personal Finance App
+
+publish_to: 'none'
+
+version: 0.0.4+4
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  dio: ^4.0.6
+  salomon_bottom_bar: ^3.3.1
+  glass_kit: ^2.0.1
+  objectbox: ^1.7.0
+  objectbox_flutter_libs: any
+  path_provider: ^2.0.11
+  path: ^1.8.2
+  flat_buffers: ^2.0.5
+  intl: ^0.18.0
+  share_plus: ^6.3.0
+  file_picker: ^5.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.2
+  objectbox_generator: any
+  flutter_native_splash: ^2.2.16
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/splash.png
+
+objectbox:
+  output_dir: objectbox-models
+
+
+
+flutter_native_splash:
+  color: "#413ABB"
+  image: assets/splash.png
+  android_12:
+    image: assets/splash.png
+  fullscreen: false
